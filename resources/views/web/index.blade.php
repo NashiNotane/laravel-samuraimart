@@ -51,8 +51,11 @@
              </div>
  
          </div>
- 
+
+         <div class="d-flex justify-content-between">
          <h1>新着商品</h1>
+         <a href="{{ route('products.index', ['sort' => 'id', 'direction' => 'desc']) }}">もっと見る</a>
+         </div>
          <div class="row">
              <div class="col-3">
                  <a href="#">
